@@ -17,10 +17,11 @@ password: {
 },
 avatar:{
     type: String,
-    default: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+    default: "https://staticg.sportskeeda.com/editor/2019/11/c2ea7-15738246743387-800.jpg"
 }, 
 },
-{ timestamps :true });
+{ timestamps: true }
+);
 
 const User = mongoose.model('User', userSchema);
 
